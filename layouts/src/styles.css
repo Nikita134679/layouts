@@ -1,0 +1,31 @@
+.icon-switch {
+  cursor: pointer;
+  margin: 20px;
+}
+
+.material-icons {
+  font-size: 36px;
+}
+
+.cards-view, .list-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.shop-card, .shop-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.shop-card img, .shop-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.shop-card p, .shop-item p {
+  margin-top: 10px;
+}
